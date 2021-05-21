@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>IndexFauvismo</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="css/responsiveslides.css">
+	 <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+     />
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+	<script src="js/responsiveslides.js"></script>
+ 	 <script>
+    // You can also use "$(window).load(function() {"
+    $(function () {
+
+      // Slideshow 1
+      $("#slider1").responsiveSlides({
+        maxwidth: 2000,
+        speed: 200
+      });
+
+    });
+  	</script>
+</head>
+
+<body>
+	<main>
+		<header>
+			<nav>
+
+				<div class="bus">
+
+				<form action="resultados_buscar.php" method="post">
+   				<label>
+				<input type="search" name="buscar" placeholder="Buscar..." />
+    			<img src="imagenes/lupita.png" type="button" name="enviar" value="Enviar">
+    			</label>
+    			</form>
+				</div>
+				
+				<div class="logo">
+					<a href="index.html"><img src="imagenes/logg.png" class="logo"></a>
+					
+				</div>
+
+				
+
+				<div id="menu1">
+					<ul class="minimen">
+						<li>
+							<a href="historia.html">HISTORIA</a>
+						<ul>
+							<li>
+								<a href="filo.html">
+									FILOSOFIA</a>
+							</li>
+						</ul>
+						</li>
+						<li>
+							<a href="art.html">ARTISTAS</a>
+						</li>
+						<li>
+							<a href="obb.html">OBRAS</a>
+						</li>
+						<li>
+							<a href="muu.html">MUESTRAS</a>
+						</li>
+						<li>
+							<a href="cont.html">CONTACTO</a>
+						</li>
+					</ul>
+				</div>
+				
+			</nav>
+		</header>
+
+		<section id="seccion">
+			<div id="wrapper">
+				<ul class="rslides" id="slider1">
+					<li>
+						<img src="imagenes/rojin.jpg" alt="">
+					</li>
+					<li>
+						<img src="imagenes/conjuntom.jpg" alt="">
+					</li>
+					<li>
+						<img src="imagenes/elpark.jpg" alt="">
+					</li>
+					<li>
+						<img src="imagenes/conjunto.jpg" alt="">
+					</li>
+					<li>
+						<img src="imagenes/der.jpg" alt="">
+					</li>
+				</ul>
+			</div>
+
+		<article id="uno">
+			<h1 class="animate__animated animate__jello">¡BIENVENIDOS, FAUVISTAS!</h1>
+		</article>
+
+		<article id="dos">
+			<p><strong>¡Hola! Les damos la bienvenida a su próximo sitio favorito a la hora de informarse sobre el fauvismo.</p>
+
+			<p>Tus fauvs es un sitio que les permitira hacer un pequeño pero informativo recorrido por la historia de una gran vanguardia: el fauvismo.</p>
+
+			<p>De esta idea nace el juego de palabras que se puede ver en el nombre del sitio.</strong></p>
+		</article>
+
+	<article id="tres">
+			<p><strong>Sin la intención de quitarte mucho tiempo solo queremos agradecerte por habernos elegido.</p>
+
+			<p>Esperamos que el sitio sea de tu agrado y que ante cualquier problema o consulta no dudes en escribirnos a las direcciones que se encuentra en la sección de contactos</p>
+
+			<p>GRACIAS POR VISITARNOS, que disfrutes el paseo.</p>
+
+			<p>&nbsp &nbsp ATTE. <i><strong>Tus Fauvs <3 </strong></i> </strong></p>
+
+			<br>
+				
+		</article>
+
+		</section>
+
+		<footer>
+			<div id="izquierda">
+		LARA CARRETERO
+	</div>
+
+	<div id="centro">
+		<div id="menu2">
+			<ul>
+				<li>
+					<a href="https://www.instagram.com" target="_blank"><img src="imagenes/instaa.png" class="redes"></a>
+				</li>
+				<li>
+					<a href="https://www.pinterest.com" target="_blank"><img src="imagenes/pinterestame.png" class="redes"></a>
+				</li>
+				<li>
+					<a href="https://www.twitter.com" target="_blank"><img src="imagenes/twitterame.png" class="redes"></a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+			
+		</footer>
+
+
+</main>
+</body>
+</html>
